@@ -1,0 +1,14 @@
+accessKey: minio
+secretKey: minio123
+
+defaultBucket:
+  enabled: true
+  name: velero
+
+resources:
+  requests:
+    memory: "512Mi"
+
+service:
+  type: NodePort
+  nodePort: 30002
